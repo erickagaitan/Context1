@@ -1,0 +1,38 @@
+#Home{
+    height: 200px;
+  }
+  
+  .grid-colums-5 {
+    grid-template-columns:repeat(5,1fr);
+
+  }
+
+  .grid-colums-4 {
+
+    grid-template-columns: repeat(4,1fr);
+
+  }
+
+  .galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+  }
+
+
+.galeria.foto svg {
+ align-self: flex-end;
+}
+
+.p-3 {
+
+padding-left: 60px;
+padding-right: 60px;
+padding-bottom: 90px;
+}
+
+.p{
+  padding-top: 20px;
+}
+

@@ -1,0 +1,88 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+box-sizing:border-box;
+}
+
+.App {
+  text-align: center;
+}
+
+#root{
+
+  height: 20x;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items:'center';
+  background-color: green;
+  width: 100%;
+  height: 58px;
+}
+
+.container-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+}
+
+#Home{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+h1 {
+color: green;
+text-align: center;
+margin-top: 30px;
+justify-content: center;
+margin-bottom: 20px;
+font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+color:green;
+padding-top: 30px;
+font-size: 33px;
+margin-bottom: 20px;
+font-family: 'Roboto', sans-serif;
+}
+
+.card{
+height: 210px;
+background-position: center;
+background-size: cover;
+width: 210px;
+margin: 5px;
+display:flex;
+flex-direction: column;
+align-items: flex-end;
+padding:8px;
+position: relative;
+justify-content: space-between;
+}
+
+.titulo {
+display: flex;
+align-items: center;
+justify-content: center;
+color: white;
+text-decoration: none;
+width: 100%;
+font-family: 'Roboto', sans-serif;
+}
+
+.parrafos{
+color: white;
+}
+
+.container-header-home {
+  width: 100%;
+}
